@@ -1,0 +1,33 @@
+2023-06-17 11:55:48.427 [info] 
+
+
+
+
+2023-06-17 11:55:48.427 [info] Extension host agent started.
+2023-06-17 11:55:48.460 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2023-06-17 11:55:48.487 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2023-06-17 11:55:49.842 [info] Installing builtin extension 'gitpod.gitpod-theme'...
+2023-06-17 11:55:49.865 [info] Getting Manifest... gitpod.gitpod-theme
+2023-06-17 11:55:50.148 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2023-06-17 11:55:50.148 [info] Getting Manifest... github.vscode-pull-request-github
+2023-06-17 11:55:50.488 [info] Installing extension: gitpod.gitpod-theme
+2023-06-17 11:55:50.620 [info] [192.168.164.10][d1006904][ManagementConnection] New connection established.
+2023-06-17 11:55:50.868 [info] Extension installed successfully: gitpod.gitpod-theme
+2023-06-17 11:55:50.869 [info] Extension 'gitpod.gitpod-theme' v0.0.2 was successfully installed.
+2023-06-17 11:55:51.089 [info] Installing extension: github.vscode-pull-request-github
+2023-06-17 11:55:52.516 [info] [192.168.38.73][50694964][ExtensionHostConnection] New connection established.
+2023-06-17 11:55:52.522 [info] [192.168.38.73][50694964][ExtensionHostConnection] <738> Launched Extension Host Process.
+2023-06-17 11:55:54.641 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2023-06-17 11:55:54.749 [info] Extracted extension to /workspace/.vscode-remote/extensions/.5f1dcf50-80e9-45d4-ac05-80770f2ebe74: github.vscode-pull-request-github
+2023-06-17 11:55:54.755 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.66.1-universal
+2023-06-17 11:55:54.757 [info] Extracting extension completed. github.vscode-pull-request-github
+2023-06-17 11:55:54.763 [info] Extension installed successfully: github.vscode-pull-request-github
+2023-06-17 11:55:54.764 [info] Extension 'github.vscode-pull-request-github' v0.66.1 was successfully installed.
+2023-06-17 11:55:54.765 [info] Installing extensions...
+2023-06-17 11:55:54.840 [warning] Skipping extension /ide/extensions/gitpod.gitpod-theme in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2023-06-17 11:55:54.940 [error] Extension 'matklad.rust-analyzer' not found.
+Make sure you use the full extension ID, including the publisher, e.g.: ms-dotnettools.csharp
+2023-06-17 11:55:54.940 [error] Error: Failed Installing Extensions: matklad.rust-analyzer
+    at e.ExtensionManagementCLI.installExtensions (/ide/out/vs/server/node/server.main.js:114:122)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

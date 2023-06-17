@@ -1,0 +1,12 @@
+2023-06-17 11:55:56.491 [info] Log level: Info
+2023-06-17 11:55:56.491 [info] VSCODE_MACHINE_ID: 78a013c9-97d7-4354-9c38-c4ccd6b4ed8a
+2023-06-17 11:55:56.491 [info] VSCODE_SESSION_ID: f7962ad2-17aa-4b50-8060-936a7639d1a71687002950635
+2023-06-17 11:55:56.491 [info] VSCODE_VERSION: 1.79.2
+2023-06-17 11:55:56.491 [info] VSCODE_APP_NAME: Gitpod Code
+2023-06-17 11:55:56.491 [info] VSCODE_APP_HOST: Gitpod
+2023-06-17 11:55:56.491 [info] VSCODE_UI_KIND: web
+2023-06-17 11:55:56.491 [info] GITPOD_WORKSPACE_CONTEXT_URL: https://github.com/gear-dapps/dynamic-nft
+2023-06-17 11:55:56.491 [info] GITPOD_INSTANCE_ID: f1e73237-7072-450d-8cd3-c7be3e671123
+2023-06-17 11:55:56.491 [info] GITPOD_WORKSPACE_URL: https://geardapps-dynamicnft-ab7uf1vfp7u.ws-us100.gitpod.io
+2023-06-17 11:55:56.491 [info] Gitpod Web 1150621
+2023-06-17 12:51:01.813 [error] 507b675e-9494-4071-be46-851e2e24fdd8 terminal: listening failed: 13 INTERNAL: waitid: no child processes

@@ -1,0 +1,17 @@
+[240ns] Shutting down all processes 
+[218.28µs] Terminating process supervisor with PID 35 (state: S, cmdlind: [supervisor run] <nil>). 
+[6.333929ms] Terminating process node with PID 963 (state: S, cmdlind: [/ide/node /ide/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=738] <nil>). 
+[6.390559ms] Terminating main process errored: waitid: no child processes 
+[6.408339ms] Terminating process node with PID 725 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[6.450199ms] Terminating main process errored: waitid: no child processes 
+[6.459189ms] Terminating process node with PID 738 (state: R, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[6.499659ms] Terminating main process errored: waitid: no child processes 
+[6.519039ms] Terminating process node with PID 933 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=738] <nil>). 
+[6.549229ms] Terminating process node with PID 70 (state: R, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --install-extension matklad.rust-analyzer --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[6.566839ms] Terminating main process errored: waitid: no child processes 
+[6.571209ms] Terminating process node with PID 81 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20230617T115548] <nil>). 
+[6.616129ms] Terminating main process errored: waitid: no child processes 
+[25.556078ms] Terminating main process errored: waitid: no child processes 
+[25.747387ms] Couldn't obtain process information for PID 81. 
+[25.826907ms] Couldn't obtain process information for PID 725. 
+[25.897867ms] Finished shutting down all processes. 
