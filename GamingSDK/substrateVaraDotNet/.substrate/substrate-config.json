@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "net_api": "VARANET.NetApiExt",
+    "rest_service": "VARANET.RestService",
+    "rest_client": "VARANET.RestClient"
+  },
+   "metadata": {
+      "websocket": "wss://testnet.vara.rs"
+   },
+  "rest_client_settings": {
+    "service_assembly": "VARANET.RestService.dll"
+  }
+}

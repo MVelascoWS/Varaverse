@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\mvela\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mvela\\.nuget\\packages"
+    ]
+  }
+}

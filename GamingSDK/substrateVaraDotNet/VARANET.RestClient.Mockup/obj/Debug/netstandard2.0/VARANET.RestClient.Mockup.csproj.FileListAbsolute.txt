@@ -1,0 +1,15 @@
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\obj\Debug\netstandard2.0\VARANET.RestClient.Mockup.csproj.AssemblyReference.cache
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\obj\Debug\netstandard2.0\VARANET.RestClient.Mockup.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\obj\Debug\netstandard2.0\VARANET.RestClient.Mockup.AssemblyInfoInputs.cache
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\obj\Debug\netstandard2.0\VARANET.RestClient.Mockup.AssemblyInfo.cs
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\obj\Debug\netstandard2.0\VARANET.RestClient.Mockup.csproj.CoreCompileInputs.cache
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\bin\Debug\netstandard2.0\VARANET.RestClient.Mockup.deps.json
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\bin\Debug\netstandard2.0\VARANET.RestClient.Mockup.dll
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\bin\Debug\netstandard2.0\VARANET.RestClient.Mockup.pdb
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\bin\Debug\netstandard2.0\VARANET.NetApiExt.dll
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\bin\Debug\netstandard2.0\VARANET.RestClient.dll
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\bin\Debug\netstandard2.0\VARANET.RestClient.pdb
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\bin\Debug\netstandard2.0\VARANET.NetApiExt.pdb
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\obj\Debug\netstandard2.0\VARANET.RestClient.Mockup.csproj.CopyComplete
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\obj\Debug\netstandard2.0\VARANET.RestClient.Mockup.dll
+D:\Projects\Gear\substrateVaraDotNet\VARANET.RestClient.Mockup\obj\Debug\netstandard2.0\VARANET.RestClient.Mockup.pdb

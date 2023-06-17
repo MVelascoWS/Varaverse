@@ -1,0 +1,5834 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "VARANET.RestService",
+    "version": "v1"
+  },
+  "paths": {
+    "/authorship/author": {
+      "get": {
+        "tags": [
+          "Authorship"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/epochindex": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/authorities": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT1"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT1"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT1"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/genesisslot": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_slots.Slot"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_slots.Slot"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_slots.Slot"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_slots.Slot"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/currentslot": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_slots.Slot"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_slots.Slot"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_slots.Slot"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_slots.Slot"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/randomness": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/pendingepochconfigchange": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumNextConfigDescriptor"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumNextConfigDescriptor"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumNextConfigDescriptor"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumNextConfigDescriptor"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/nextrandomness": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/nextauthorities": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT1"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT1"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT1"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/segmentindex": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/underconstruction": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT1"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT1"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT1"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/initialized": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumPreDigest]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumPreDigest]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumPreDigest]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumPreDigest]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/authorvrfrandomness": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Types.Base.Arr32U8]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Types.Base.Arr32U8]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Types.Base.Arr32U8]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Types.Base.Arr32U8]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/epochstart": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/lateness": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/epochconfig": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.BabeEpochConfiguration"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.BabeEpochConfiguration"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.BabeEpochConfiguration"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.BabeEpochConfiguration"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/nextepochconfig": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.BabeEpochConfiguration"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.BabeEpochConfiguration"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.BabeEpochConfiguration"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.BabeEpochConfiguration"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/babe/skippedepochs": {
+      "get": {
+        "tags": [
+          "Babe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT2"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT2"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT2"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT2"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/balances/totalissuance": {
+      "get": {
+        "tags": [
+          "Balances"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/balances/inactiveissuance": {
+      "get": {
+        "tags": [
+          "Balances"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/balances/account": {
+      "get": {
+        "tags": [
+          "Balances"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_balances.AccountData"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_balances.AccountData"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_balances.AccountData"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_balances.AccountData"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/balances/locks": {
+      "get": {
+        "tags": [
+          "Balances"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT3"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT3"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT3"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT3"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/balances/reserves": {
+      "get": {
+        "tags": [
+          "Balances"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT3"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT3"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT3"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT3"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gear/executeinherent": {
+      "get": {
+        "tags": [
+          "Gear"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gear/blocknumber": {
+      "get": {
+        "tags": [
+          "Gear"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gear/lastgearblocknumber": {
+      "get": {
+        "tags": [
+          "Gear"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/geargas/totalissuance": {
+      "get": {
+        "tags": [
+          "GearGas"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/geargas/gasnodes": {
+      "get": {
+        "tags": [
+          "GearGas"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.gas_provider.node.EnumGasNode"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.gas_provider.node.EnumGasNode"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.gas_provider.node.EnumGasNode"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.gas_provider.node.EnumGasNode"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/geargas/allowance": {
+      "get": {
+        "tags": [
+          "GearGas"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearmessenger/dequeued": {
+      "get": {
+        "tags": [
+          "GearMessenger"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearmessenger/dispatches": {
+      "get": {
+        "tags": [
+          "GearMessenger"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.storage.complicated.dequeue.LinkedNode"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.storage.complicated.dequeue.LinkedNode"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.storage.complicated.dequeue.LinkedNode"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.storage.complicated.dequeue.LinkedNode"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearmessenger/counterfordispatches": {
+      "get": {
+        "tags": [
+          "GearMessenger"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearmessenger/head": {
+      "get": {
+        "tags": [
+          "GearMessenger"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearmessenger/mailbox": {
+      "get": {
+        "tags": [
+          "GearMessenger"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredMessage,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredMessage,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredMessage,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredMessage,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearmessenger/queueprocessing": {
+      "get": {
+        "tags": [
+          "GearMessenger"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearmessenger/sent": {
+      "get": {
+        "tags": [
+          "GearMessenger"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearmessenger/tail": {
+      "get": {
+        "tags": [
+          "GearMessenger"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearmessenger/waitlist": {
+      "get": {
+        "tags": [
+          "GearMessenger"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearmessenger/dispatchstash": {
+      "get": {
+        "tags": [
+          "GearMessenger"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearprogram/codestorage": {
+      "get": {
+        "tags": [
+          "GearProgram"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.code.InstrumentedCode"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.code.InstrumentedCode"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.code.InstrumentedCode"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.code.InstrumentedCode"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearprogram/codelenstorage": {
+      "get": {
+        "tags": [
+          "GearProgram"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearprogram/originalcodestorage": {
+      "get": {
+        "tags": [
+          "GearProgram"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearprogram/metadatastorage": {
+      "get": {
+        "tags": [
+          "GearProgram"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.CodeMetadata"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.CodeMetadata"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.CodeMetadata"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.CodeMetadata"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearprogram/programstorage": {
+      "get": {
+        "tags": [
+          "GearProgram"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.EnumProgram"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.EnumProgram"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.EnumProgram"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.EnumProgram"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearprogram/memorypagestorage": {
+      "get": {
+        "tags": [
+          "GearProgram"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.memory.PageBuf"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.memory.PageBuf"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.memory.PageBuf"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.memory.PageBuf"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearprogram/waitinginitstorage": {
+      "get": {
+        "tags": [
+          "GearProgram"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearprogram/pausedprogramstorage": {
+      "get": {
+        "tags": [
+          "GearProgram"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,VARANET.NetApiExt.Generated.Model.primitive_types.H256]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,VARANET.NetApiExt.Generated.Model.primitive_types.H256]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,VARANET.NetApiExt.Generated.Model.primitive_types.H256]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,VARANET.NetApiExt.Generated.Model.primitive_types.H256]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearscheduler/firstincompletetasksblock": {
+      "get": {
+        "tags": [
+          "GearScheduler"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gearscheduler/taskpool": {
+      "get": {
+        "tags": [
+          "GearScheduler"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/grandpa/state": {
+      "get": {
+        "tags": [
+          "Grandpa"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_grandpa.EnumStoredState"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_grandpa.EnumStoredState"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_grandpa.EnumStoredState"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_grandpa.EnumStoredState"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/grandpa/pendingchange": {
+      "get": {
+        "tags": [
+          "Grandpa"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_grandpa.StoredPendingChange"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_grandpa.StoredPendingChange"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_grandpa.StoredPendingChange"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_grandpa.StoredPendingChange"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/grandpa/nextforced": {
+      "get": {
+        "tags": [
+          "Grandpa"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/grandpa/stalled": {
+      "get": {
+        "tags": [
+          "Grandpa"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/grandpa/currentsetid": {
+      "get": {
+        "tags": [
+          "Grandpa"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/grandpa/setidsession": {
+      "get": {
+        "tags": [
+          "Grandpa"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/mockup/data": {
+      "post": {
+        "tags": [
+          "Mockup"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Substrate.ServiceLayer.Model.MockupRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Substrate.ServiceLayer.Model.MockupRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Substrate.ServiceLayer.Model.MockupRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/multisig/multisigs": {
+      "get": {
+        "tags": [
+          "Multisig"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_multisig.Multisig"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_multisig.Multisig"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_multisig.Multisig"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_multisig.Multisig"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/proxies": {
+      "get": {
+        "tags": [
+          "Proxy"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT4,Substrate.NetApi.Model.Types.Primitive.U128]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT4,Substrate.NetApi.Model.Types.Primitive.U128]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT4,Substrate.NetApi.Model.Types.Primitive.U128]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT4,Substrate.NetApi.Model.Types.Primitive.U128]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/announcements": {
+      "get": {
+        "tags": [
+          "Proxy"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT5,Substrate.NetApi.Model.Types.Primitive.U128]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT5,Substrate.NetApi.Model.Types.Primitive.U128]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT5,Substrate.NetApi.Model.Types.Primitive.U128]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT5,Substrate.NetApi.Model.Types.Primitive.U128]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/session/validators": {
+      "get": {
+        "tags": [
+          "Session"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/session/currentindex": {
+      "get": {
+        "tags": [
+          "Session"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/session/queuedchanged": {
+      "get": {
+        "tags": [
+          "Session"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/session/queuedkeys": {
+      "get": {
+        "tags": [
+          "Session"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32,VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys]]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32,VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys]]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32,VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys]]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32,VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/session/disabledvalidators": {
+      "get": {
+        "tags": [
+          "Session"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U32]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/session/nextkeys": {
+      "get": {
+        "tags": [
+          "Session"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/session/keyowner": {
+      "get": {
+        "tags": [
+          "Session"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sudo/key": {
+      "get": {
+        "tags": [
+          "Sudo"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/account": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.AccountInfo"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.AccountInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.AccountInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.AccountInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/extrinsiccount": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/blockweight": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_support.dispatch.PerDispatchClassT1"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_support.dispatch.PerDispatchClassT1"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_support.dispatch.PerDispatchClassT1"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_support.dispatch.PerDispatchClassT1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/allextrinsicslen": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/blockhash": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.primitive_types.H256"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.primitive_types.H256"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.primitive_types.H256"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.primitive_types.H256"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/extrinsicdata": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/number": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/parenthash": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.primitive_types.H256"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.primitive_types.H256"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.primitive_types.H256"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.primitive_types.H256"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/digest": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.Digest"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.Digest"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.Digest"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.Digest"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/events": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.frame_system.EventRecord]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.frame_system.EventRecord]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.frame_system.EventRecord]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.frame_system.EventRecord]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/eventcount": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/eventtopics": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/lastruntimeupgrade": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.LastRuntimeUpgradeInfo"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.LastRuntimeUpgradeInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.LastRuntimeUpgradeInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.LastRuntimeUpgradeInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/upgradedtou32refcount": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/upgradedtotriplerefcount": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/system/executionphase": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.EnumPhase"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.EnumPhase"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.EnumPhase"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.EnumPhase"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/timestamp/now": {
+      "get": {
+        "tags": [
+          "Timestamp"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/timestamp/didupdate": {
+      "get": {
+        "tags": [
+          "Timestamp"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/transactionpayment/nextfeemultiplier": {
+      "get": {
+        "tags": [
+          "TransactionPayment"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_arithmetic.fixed_point.FixedU128"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_arithmetic.fixed_point.FixedU128"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_arithmetic.fixed_point.FixedU128"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_arithmetic.fixed_point.FixedU128"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/transactionpayment/storageversion": {
+      "get": {
+        "tags": [
+          "TransactionPayment"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_transaction_payment.EnumReleases"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_transaction_payment.EnumReleases"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_transaction_payment.EnumReleases"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_transaction_payment.EnumReleases"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/validatorset/validators": {
+      "get": {
+        "tags": [
+          "ValidatorSet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/validatorset/approvedvalidators": {
+      "get": {
+        "tags": [
+          "ValidatorSet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/validatorset/offlinevalidators": {
+      "get": {
+        "tags": [
+          "ValidatorSet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/substrate": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Substrate.NetApi.CompactInteger": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "$ref": "#/components/schemas/System.Numerics.BigInteger"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseCom`1[Substrate.NetApi.Model.Types.Primitive.U128]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.CompactInteger"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseCom`1[Substrate.NetApi.Model.Types.Primitive.U32]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.CompactInteger"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseCom`1[Substrate.NetApi.Model.Types.Primitive.U64]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.CompactInteger"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseOpt`1[Substrate.NetApi.Model.Types.Primitive.U32]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "optionFlag": {
+            "type": "boolean"
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseOpt`1[Substrate.NetApi.Model.Types.Primitive.U64]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "optionFlag": {
+            "type": "boolean"
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT1]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "optionFlag": {
+            "type": "boolean"
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT1"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "optionFlag": {
+            "type": "boolean"
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.message.common.EnumMessageDetails]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "optionFlag": {
+            "type": "boolean"
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.message.common.EnumMessageDetails"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.message.context.ContextStore]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "optionFlag": {
+            "type": "boolean"
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.message.context.ContextStore"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumPreDigest]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "optionFlag": {
+            "type": "boolean"
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumPreDigest"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Types.Base.Arr32U8]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "optionFlag": {
+            "type": "boolean"
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT1]]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,VARANET.NetApiExt.Generated.Model.primitive_types.H256]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U64,Substrate.NetApi.Model.Types.Primitive.U32]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U64,Substrate.NetApi.Model.Types.Primitive.U64]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT4,Substrate.NetApi.Model.Types.Primitive.U128]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT5,Substrate.NetApi.Model.Types.Primitive.U128]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredMessage,VARANET.NetApiExt.Generated.Model.gear_common.storage.primitives.Interval]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_consensus_babe.app.Public,Substrate.NetApi.Model.Types.Primitive.U64]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_consensus_grandpa.app.Public,Substrate.NetApi.Model.Types.Primitive.U64]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32,VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT1]]]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT1]]"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Primitive.U32]"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U64,Substrate.NetApi.Model.Types.Primitive.U32]]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U64,Substrate.NetApi.Model.Types.Primitive.U32]"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_consensus_babe.app.Public,Substrate.NetApi.Model.Types.Primitive.U64]]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_consensus_babe.app.Public,Substrate.NetApi.Model.Types.Primitive.U64]"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_consensus_grandpa.app.Public,Substrate.NetApi.Model.Types.Primitive.U64]]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_consensus_grandpa.app.Public,Substrate.NetApi.Model.Types.Primitive.U64]"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32,VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys]]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32,VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys]"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U32]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U8"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.frame_system.EventRecord]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.EventRecord"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.gear_core.ids.ProgramId]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.ProgramId"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.gear_core.message.EnumDispatchKind]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.message.EnumDispatchKind"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.pallet_balances.BalanceLock]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_balances.BalanceLock"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.pallet_balances.ReserveData]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_balances.ReserveData"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.primitive_types.H256]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.primitive_types.H256"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.EnumDigestItem]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.EnumDigestItem"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Types.Base.Arr32U8]": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.IType": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Primitive.Bool": {
+        "type": "object",
+        "properties": {
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "boolean"
+          },
+          "typeSize": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Primitive.Str": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Primitive.U128": {
+        "type": "object",
+        "properties": {
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/System.Numerics.BigInteger"
+          },
+          "typeSize": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Primitive.U32": {
+        "type": "object",
+        "properties": {
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "typeSize": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Primitive.U64": {
+        "type": "object",
+        "properties": {
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "typeSize": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.NetApi.Model.Types.Primitive.U8": {
+        "type": "object",
+        "properties": {
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "typeSize": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Substrate.ServiceLayer.Model.MockupRequest": {
+        "type": "object",
+        "properties": {
+          "storage": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "key": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "System.Numerics.BigInteger": {
+        "type": "object",
+        "properties": {
+          "isPowerOfTwo": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isZero": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isOne": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isEven": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "sign": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT1": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Types.Base.Arr32U8]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT2": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U64,Substrate.NetApi.Model.Types.Primitive.U32]]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT3": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.pallet_balances.ReserveData]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT6": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT1": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_consensus_babe.app.Public,Substrate.NetApi.Model.Types.Primitive.U64]]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT2": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[VARANET.NetApiExt.Generated.Model.sp_consensus_grandpa.app.Public,Substrate.NetApi.Model.Types.Primitive.U64]]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT3": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.pallet_balances.BalanceLock]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.frame_support.dispatch.PerDispatchClassT1": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "normal": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_weights.weight_v2.Weight"
+          },
+          "operational": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_weights.weight_v2.Weight"
+          },
+          "mandatory": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_weights.weight_v2.Weight"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.frame_system.AccountInfo": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "nonce": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          },
+          "consumers": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          },
+          "providers": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          },
+          "sufficients": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          },
+          "data": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_balances.AccountData"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.frame_system.EnumPhase": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.Phase"
+          },
+          "value2": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.frame_system.EventRecord": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "phase": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.frame_system.EnumPhase"
+          },
+          "event": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_runtime.EnumRuntimeEvent"
+          },
+          "topics": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.primitive_types.H256]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.frame_system.LastRuntimeUpgradeInfo": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "specVersion": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseCom`1[Substrate.NetApi.Model.Types.Primitive.U32]"
+          },
+          "specName": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Str"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.frame_system.Phase": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_common.CodeMetadata": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "author": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.primitive_types.H256"
+          },
+          "blockNumber": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseCom`1[Substrate.NetApi.Model.Types.Primitive.U32]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_common.EnumProgram": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.Program"
+          },
+          "value2": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_common.gas_provider.node.EnumGasNode": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_common.gas_provider.node.GasNode"
+          },
+          "value2": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_common.gas_provider.node.GasNode": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_common.Program": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_common.storage.complicated.dequeue.LinkedNode": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "next": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId]"
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT1": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT2": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.code.InstrumentedCode": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "code": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Primitive.U8]"
+          },
+          "originalCodeLen": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          },
+          "exports": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.BTreeSetT2"
+          },
+          "staticPages": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.memory.WasmPage"
+          },
+          "version": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.ids.ProgramId": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.memory.PageBuf": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT2"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.memory.WasmPage": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.message.common.EnumMessageDetails": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.message.common.MessageDetails"
+          },
+          "value2": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.message.common.MessageDetails": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.message.context.ContextStore": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "outgoing": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.BTreeMapT3"
+          },
+          "reply": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT1]"
+          },
+          "initialized": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.BTreeSetT1"
+          },
+          "awaken": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.BTreeSetT5"
+          },
+          "replySent": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.Bool"
+          },
+          "reservationNonce": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+          },
+          "systemReservation": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[Substrate.NetApi.Model.Types.Primitive.U64]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.message.DispatchKind": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.message.EnumDispatchKind": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.message.DispatchKind"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredDispatch": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "kind": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.message.EnumDispatchKind"
+          },
+          "message": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredMessage"
+          },
+          "context": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.message.context.ContextStore]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_core.message.stored.StoredMessage": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "id": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId"
+          },
+          "source": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.ProgramId"
+          },
+          "destination": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.ids.ProgramId"
+          },
+          "payload": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT1"
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseCom`1[Substrate.NetApi.Model.Types.Primitive.U128]"
+          },
+          "details": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.message.common.EnumMessageDetails]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_runtime.EnumRuntimeEvent": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.gear_runtime.RuntimeEvent"
+          },
+          "value2": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_runtime.RuntimeEvent": {
+        "enum": [
+          0,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          98,
+          99,
+          104
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.gear_runtime.SessionKeys": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "babe": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.app.Public"
+          },
+          "grandpa": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_grandpa.app.Public"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_balances.AccountData": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "free": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+          },
+          "reserved": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+          },
+          "miscFrozen": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+          },
+          "feeFrozen": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_balances.BalanceLock": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "id": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr8U8"
+          },
+          "amount": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+          },
+          "reasons": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_balances.EnumReasons"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_balances.EnumReasons": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_balances.Reasons"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_balances.Reasons": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_balances.ReserveData": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "id": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr8U8"
+          },
+          "amount": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_grandpa.EnumStoredState": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_grandpa.StoredState"
+          },
+          "value2": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_grandpa.StoredPendingChange": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "scheduledAt": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          },
+          "delay": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          },
+          "nextAuthorities": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT2"
+          },
+          "forced": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseOpt`1[Substrate.NetApi.Model.Types.Primitive.U32]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_grandpa.StoredState": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_multisig.Multisig": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "when": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_multisig.Timepoint"
+          },
+          "deposit": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+          },
+          "depositor": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32"
+          },
+          "approvals": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT6"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_multisig.Timepoint": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "height": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          },
+          "index": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_transaction_payment.EnumReleases": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.pallet_transaction_payment.Releases"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.pallet_transaction_payment.Releases": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.primitive_types.H256": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_arithmetic.fixed_point.FixedU128": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U128"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_consensus_babe.AllowedSlots": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_consensus_babe.app.Public": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.sr25519.Public"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_consensus_babe.BabeEpochConfiguration": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "c": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U64,Substrate.NetApi.Model.Types.Primitive.U64]"
+          },
+          "allowedSlots": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.EnumAllowedSlots"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumNextConfigDescriptor": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.NextConfigDescriptor"
+          },
+          "value2": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.EnumPreDigest": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.PreDigest"
+          },
+          "value2": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.NextConfigDescriptor": {
+        "enum": [
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_consensus_babe.digests.PreDigest": {
+        "enum": [
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_consensus_babe.EnumAllowedSlots": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_consensus_babe.AllowedSlots"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_consensus_grandpa.app.Public": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_core.ed25519.Public"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_consensus_slots.Slot": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U64"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_core.ed25519.Public": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_core.sr25519.Public": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Types.Base.Arr32U8"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.Digest": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "logs": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.EnumDigestItem]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.DigestItem": {
+        "enum": [
+          0,
+          4,
+          5,
+          6,
+          8
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.EnumDigestItem": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/VARANET.NetApiExt.Generated.Model.sp_runtime.generic.digest.DigestItem"
+          },
+          "value2": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.IType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Model.sp_weights.weight_v2.Weight": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "refTime": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseCom`1[Substrate.NetApi.Model.Types.Primitive.U64]"
+          },
+          "proofSize": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseCom`1[Substrate.NetApi.Model.Types.Primitive.U64]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Types.Base.Arr32U8": {
+        "type": "object",
+        "properties": {
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "typeSize": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U8"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Types.Base.Arr8U8": {
+        "type": "object",
+        "properties": {
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "typeSize": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Primitive.U8"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Types.Base.BTreeMapT3": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[Substrate.NetApi.Model.Types.Base.BaseTuple`2[Substrate.NetApi.Model.Types.Primitive.U32,Substrate.NetApi.Model.Types.Base.BaseOpt`1[VARANET.NetApiExt.Generated.Model.gear_core.buffer.LimitedVecT1]]]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Types.Base.BTreeSetT1": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.gear_core.ids.ProgramId]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Types.Base.BTreeSetT2": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.gear_core.message.EnumDispatchKind]"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VARANET.NetApiExt.Generated.Types.Base.BTreeSetT5": {
+        "type": "object",
+        "properties": {
+          "typeSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bytes": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/Substrate.NetApi.Model.Types.Base.BaseVec`1[VARANET.NetApiExt.Generated.Model.gear_core.ids.MessageId]"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

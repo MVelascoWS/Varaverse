@@ -1,0 +1,10 @@
+D:\Projects\Gear\substrateVaraDotNet\VARANET.NetApiExt\obj\Release\netstandard2.1\VARANET.NetApiExt.csproj.AssemblyReference.cache
+D:\Projects\Gear\substrateVaraDotNet\VARANET.NetApiExt\obj\Release\netstandard2.1\VARANET.NetApiExt.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Gear\substrateVaraDotNet\VARANET.NetApiExt\obj\Release\netstandard2.1\VARANET.NetApiExt.AssemblyInfoInputs.cache
+D:\Projects\Gear\substrateVaraDotNet\VARANET.NetApiExt\obj\Release\netstandard2.1\VARANET.NetApiExt.AssemblyInfo.cs
+D:\Projects\Gear\substrateVaraDotNet\VARANET.NetApiExt\obj\Release\netstandard2.1\VARANET.NetApiExt.csproj.CoreCompileInputs.cache
+D:\Projects\Gear\substrateVaraDotNet\VARANET.NetApiExt\bin\Release\netstandard2.1\VARANET.NetApiExt.deps.json
+D:\Projects\Gear\substrateVaraDotNet\VARANET.NetApiExt\bin\Release\netstandard2.1\VARANET.NetApiExt.dll
+D:\Projects\Gear\substrateVaraDotNet\VARANET.NetApiExt\bin\Release\netstandard2.1\VARANET.NetApiExt.pdb
+D:\Projects\Gear\substrateVaraDotNet\VARANET.NetApiExt\obj\Release\netstandard2.1\VARANET.NetApiExt.dll
+D:\Projects\Gear\substrateVaraDotNet\VARANET.NetApiExt\obj\Release\netstandard2.1\VARANET.NetApiExt.pdb

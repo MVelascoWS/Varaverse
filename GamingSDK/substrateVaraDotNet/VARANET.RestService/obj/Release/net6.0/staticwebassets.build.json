@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8iRVhFlCHLr565EVT/UsxwlcG6kpD0UUW/DCHpdh+Zg=",
+  "Source": "VARANET.RestService",
+  "BasePath": "_content/VARANET.RestService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
